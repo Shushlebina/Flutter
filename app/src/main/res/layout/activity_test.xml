@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/question1_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Вопрос 1: Какая платформа для разработки мобильных приложений на Flutter?" />
+
+            <RadioGroup
+                android:id="@+id/answer_radiogroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer1_radiobutton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="React Native" />
+
+                <RadioButton
+                    android:id="@+id/answer2_radiobutton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flutter" />
+
+                <RadioButton
+                    android:id="@+id/answer3_radiobutton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ionic" />
+
+                <RadioButton
+                    android:id="@+id/answer4_radiobutton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Xamarin" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question2_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Вопрос 2: Какой язык программирования является основным для Flutter?" />
+
+            <RadioGroup
+                android:id="@+id/answer_radiogroup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer1_radiobutton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="С++" />
+
+                <RadioButton
+                    android:id="@+id/answer2_radiobutton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dart" />
+
+                <RadioButton
+                    android:id="@+id/answer3_radiobutton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Python" />
+
+                <RadioButton
+                    android:id="@+id/answer4_radiobutton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Java" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/question3_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Вопрос 3: Какая библиотека Flutter используется для работы с сетью?" />
+
+            <RadioGroup
+                android:id="@+id/answer_radiogroup3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/answer1_radiobutton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dio" />
+
+                <RadioButton
+                    android:id="@+id/answer2_radiobutton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="fetch" />
+
+                <RadioButton
+                    android:id="@+id/answer3_radiobutton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="http" />
+
+                <RadioButton
+                    android:id="@+id/answer4_radiobutton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="connect" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/question4_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Вопрос 4: Какой класс в Flutter отвечает за работу с анимациями?" />
+
+            <RadioGroup
+                android:id="@+id/answer_radiogroup4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/answer1_radiobutton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AnimationController" />
+
+                <RadioButton
+                    android:id="@+id/answer2_radiobutton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AnimatedContainer" />
+
+                <RadioButton
+                    android:id="@+id/answer3_radiobutton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AnimatedIcon" />
+
+                <RadioButton
+                    android:id="@+id/answer4_radiobutton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Animatable" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/question5_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Вопрос 5: Что такое Flutter?" />
+
+            <RadioGroup
+                android:id="@+id/answer_radiogroup5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/answer1_radiobutton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Фреймворк для создания игр" />
+
+                <RadioButton
+                    android:id="@+id/answer2_radiobutton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Инструмент для анализа и оптимизации кода" />
+
+                <RadioButton
+                    android:id="@+id/answer3_radiobutton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Язык программирования для создания приложений" />
+
+                <RadioButton
+                    android:id="@+id/answer4_radiobutton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Кроссплатформенный фреймворк для создания мобильных приложений" />
+            </RadioGroup>
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ответить" />
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="В главное меню"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.055" />
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

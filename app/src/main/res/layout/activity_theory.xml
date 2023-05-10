@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheoryActivity">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flutter - это фреймворк для разработки кроссплатформенных мобильных, веб- и настольных приложений с использованием языка программирования Dart. Flutter был разработан компанией Google и является открытым исходным кодом.
+
+Язык программирования Dart, который используется в Flutter, является объектно-ориентированным языком со статической типизацией и сборкой мусора. Dart разрабатывался таким образом, чтобы быть простым и легким для изучения, но при этом быть достаточно мощным и эффективным для создания сложных приложений.\n
+Flutter также предоставляет разработчикам множество готовых компонентов, которые могут использоваться для создания пользовательского интерфейса, а также мощный и быстрый движок для рендеринга пользовательского интерфейса. Это позволяет разработчикам быстро создавать красивые и эффективные приложения для множества платформ.
+
+\n1. Виджеты\nFlutter построен на концепции виджетов, которые являются элементами пользовательского интерфейса. Виджеты могут быть простыми (например, текстовое поле) или составными (например, таблица с данными). В Flutter все виджеты являются неизменяемыми (immutable), что означает, что если вы хотите изменить виджет, вам нужно создать новый.
+
+\n2. Гибкий макет\nFlutter предлагает гибкий и мощный механизм макета, который позволяет создавать интерфейсы на основе концепции 'все является виджетом'. Это означает, что вы можете легко создавать компоненты пользовательского интерфейса, располагая их в вертикальных и горизонтальных списках, сетках или любом другом макете, который вы можете представить.
+
+\n3. Горячая перезагрузка\nОдна из самых популярных особенностей Flutter - это горячая перезагрузка. Она позволяет разработчикам быстро прототипировать и проверять свои изменения в приложении без необходимости перезапуска. Приложение сохраняет свое состояние между перезагрузками, что позволяет быстро проверять изменения.
+
+\n4. Анимации и графика\n
+Flutter предоставляет различные средства для создания анимаций и работы с графикой, включая возможность создания красивых кривых анимации и простой интеграции с видео- и аудиопотоками.
+
+\n5. Один код на все платформы\n
+Flutter предлагает возможность создавать приложения для нескольких платформ (Android, iOS, веб и др.) с использованием одного и того же кода. Это означает, что разработчики могут использовать все возможности Flutter, чтобы создавать приложения для разных платформ, без необходимости писать разный код для каждой из них.
+
+\n6. Язык программирования\n
+Flutter использует язык программирования Dart, который был создан компанией Google. Dart - это объектно-ориентированный язык программирования, который был разработан для создания высокопроизводительных приложений. Dart имеет современный синтаксис, гарантированную типизацию и множество других возможностей, что делает его идеальным языком для разработки в Flutter"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="В главное меню"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+</LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
